@@ -603,3 +603,249 @@ form button{
 ::-webkit-scrollbar-thumb:hover {
   background: #555; 
 }
+
+
+
+
+
+/* =========================
+   TABLET (991px and below)
+========================= */
+@media (max-width: 991px) {
+
+  section{
+    padding:60px 30px;
+  }
+
+  .navbar{
+    justify-content:space-between;
+    padding:0 20px;
+  }
+
+  .logo{
+    position:static;
+    font-size:1.5rem;
+  }
+
+  .nav-links{
+    gap:20px;
+  }
+
+  .contact-btn{
+    position:static;
+    padding:8px 18px;
+    font-size:14px;
+  }
+
+  .hero{
+    flex-direction:column;
+    text-align:center;
+    gap:20px;
+  }
+
+  .left-title h1,
+  .right-title h1{
+    font-size:5rem;
+  }
+
+  .placeholder{
+    width:250px;
+    height:350px;
+  }
+
+  .intro{
+    grid-template-columns:1fr;
+    text-align:center;
+    gap:40px;
+  }
+
+  .intro-image{
+    margin-left:0;
+    display:flex;
+    justify-content:center;
+  }
+
+  .card{
+    margin:0 auto;
+  }
+
+  .info-grid{
+    grid-template-columns:repeat(2,1fr);
+  }
+
+  .content-grid{
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+  }
+
+  .contact{
+    grid-template-columns:1fr;
+    gap:40px;
+  }
+}
+
+/* =========================
+   MOBILE (768px and below)
+========================= */
+@media (max-width:768px){
+
+  section{
+    padding:80px 20px;
+  }
+
+  .navbar{
+    height:auto;
+    flex-direction:column;
+    padding:15px;
+    gap:15px;
+  }
+
+  .logo{
+    position:static;
+  }
+
+  .nav-links{
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:15px;
+  }
+
+  .contact-btn{
+    position:static;
+  }
+
+  .cover{
+    padding-top:80px;
+  }
+
+  .name{
+    position:static;
+    margin-bottom:20px;
+    text-align:center;
+  }
+
+  .left-title h1,
+  .right-title h1{
+    font-size:3.5rem;
+    letter-spacing:2px;
+  }
+
+  .placeholder{
+    width:220px;
+    height:300px;
+  }
+
+  .subtitle{
+    font-size:16px;
+  }
+
+  .intro-content h1{
+    font-size:3rem;
+  }
+
+  .card{
+    width:260px;
+    height:340px;
+    margin:0 auto;
+  }
+
+  .profile-placeholder{
+    width:250px;
+    height:320px;
+  }
+
+  .info-grid{
+    grid-template-columns:1fr;
+  }
+
+  .contents h1,
+  .skills h1,
+  .projects h1,
+  .certificates h1,
+  .contact-right h1{
+    font-size:3rem;
+  }
+
+  .content-grid{
+    grid-template-columns:repeat(2,1fr);
+    gap:25px;
+  }
+
+  .content-grid div{
+    font-size:3rem;
+  }
+
+  .content-grid span{
+    font-size:16px;
+  }
+
+  .skills-grid{
+    grid-template-columns:repeat(2,1fr);
+    justify-items:center;
+  }
+
+  .project-grid,
+  .certificate-grid{
+    grid-template-columns:1fr;
+  }
+
+  input,
+  textarea{
+    padding:15px;
+  }
+
+  .thank-you h1{
+    font-size:4rem;
+    text-align:center;
+  }
+
+  .thank-you h2{
+    font-size:2rem;
+    text-align:center;
+  }
+
+  .thank-you p{
+    font-size:1.2rem;
+    text-align:center;
+  }
+}
+
+/* =========================
+   SMALL PHONES
+========================= */
+@media (max-width:480px){
+
+  .left-title h1,
+  .right-title h1{
+    font-size:2.5rem;
+  }
+
+  .intro-content h1,
+  .contents h1,
+  .skills h1,
+  .projects h1,
+  .certificates h1,
+  .contact-right h1{
+    font-size:2.3rem;
+  }
+
+  .content-grid,
+  .skills-grid{
+    grid-template-columns:1fr;
+  }
+
+  .card{
+    width:220px;
+    height:300px;
+  }
+
+  .placeholder{
+    width:180px;
+    height:250px;
+  }
+
+  .profile-placeholder{
+    width:220px;
+    height:280px;
+  }
+}
